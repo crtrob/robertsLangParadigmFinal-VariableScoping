@@ -1,0 +1,4 @@
+Hello. This is a file that describes why some code snippets do not have equivalents in a language or other. Take a look if you are confused:
+
+
+closureDynamic.el: BECAUSE EMACS LISP HAS DYNAMIC SCOPE, IT CANNOT DO CLOSURES. THE CALL STACK SEARCH METHOD MAKES IMPOSSIBLE THE METHOD USED TO DO CLOSURES
