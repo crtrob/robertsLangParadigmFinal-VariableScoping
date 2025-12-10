@@ -4,7 +4,7 @@
 ;; Filename: nestedScope.el
 ;; Description: Uses functions and variables to see what function space can access what in Emacs Lisp
 ;; Date Created (MM/DD/YYYY): 12/9/2025 
-;; Date Modified (MM/DD/YYYY): 12/9/2025
+;; Date Modified (MM/DD/YYYY): 12/10/2025
 
 ;; global space; can access anything instantiated within itself
 ;; global variable definition
@@ -37,6 +37,6 @@
 ;; all of these are accessible because of dynamic scoping and the fact the instances were already put on
 ;; the call stack a line above in code
 (message "Access tests from within global space:")
-(message "Inside: %s" inside) ;; uncommenting this line should cause a running error
-(message "Outside: %s" outside) ;; uncommenting this line should cause a running error
+(message "Inside: %s" inside) 
+(message "Outside: %s" outside) 
 (message "Worldwide: %s" worldwide)
